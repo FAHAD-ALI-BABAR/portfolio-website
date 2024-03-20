@@ -48,3 +48,34 @@ const tabsContainer=document.querySelector(".about-tabs")
         },500)
       }
  })
+
+window.addEventListener("load", function(){
+    document.querySelector(".main").classList.remove("hidden");
+    document.querySelector(".home-section").classList.add("active");
+    /*-----------page loader-----------*/
+    document.querySelector(".page-loader").classList.add("fade-out");
+    setTimeout(() => {
+        document.querySelector(".page-loader").computedStyleMap.display = "none";
+    }, 2000);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
